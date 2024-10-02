@@ -1,0 +1,52 @@
+.slider {
+    margin-left: 52px;
+    width: 690px;
+    height: 766px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.slider:hover {
+    overflow-y: scroll;
+    cursor: zoom-in;
+    scroll-snap-type: y mandatory;
+}
+
+.slider img {
+    width: 690px;
+    scroll-snap-align: start;
+    margin: auto;
+    display: block;
+    transition: opacity 0.5s;
+}
+
+.slider {
+    scrollbar-color: var(--color-ironGrey) var(--color-lightGrey);
+    scrollbar-width: thin;
+}
+
+.slider-wrap1 {
+    background-image: url(https://contentstore.triumph.com/transform/4866c8cf-110c-425d-91b8-f69d23b546da/30_10221469_00YO_2.jpg?);
+    position: relative;
+    width: 100%;
+}
+
+.slider-wrap2 {
+    background-image: url(https://contentstore.triumph.com/transform/d2f70b54-db06-4235-9c47-fee472e2600a/30_10221469_00YO_3.jpg?);
+    position: relative;
+    width: 100%;
+}
+
+.slider-wrap3 {
+    background-image: url(https://contentstore.triumph.com/transform/08f0b063-42ac-4762-ab83-10444597cfe7/30_10221469_00YO_4.jpg?);
+    position: relative;
+    width: 100%;
+}
+
+.slider-wrap4 {
+    background-image: url(https://contentstore.triumph.com/transform/3fbd472b-f317-44e4-a6e0-3d38ffb6d776/30_10221469_00YO_1.png?);
+    position: relative;
+    width: 100%;
+}
