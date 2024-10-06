@@ -1,0 +1,76 @@
+/* 1400px */
+@media (max-width: 1400px) {
+    .menu-container {
+        margin-left: 32px;
+        width: 25%;
+    }
+    
+    .menu-size button {
+        height: 37px;
+    }
+
+    .menu-size {
+        margin-top: 12px;
+    }
+
+    .menu-size-select {
+        margin-top: 12px;
+    }
+
+    .menu-size-select label {
+        width: 44px;
+        height: 28px;
+        font-size: 12px;
+    }
+
+    .menu-btn-add {
+        margin-top: 20px;
+    }
+
+    .menu-btn-add button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .menu-btn-add-2 {
+        margin-top: 10px;
+    }
+
+    .pay-conatiner {
+        font-size: 12px;
+    }
+}
+
+/* 1024px*/
+@media (max-width: 1024px) {
+    .menu-delivery {
+        font-size: 12px;
+    }
+    .menu-info{
+        position:absolute;
+        top: 0;
+        left: 0;
+        
+    }
+}
+
+@media (max-width: 992px) {
+
+    .menu-info{
+        position:absolute;
+        top: 0;
+        left: 16px;
+        width: 90%;
+        
+        
+    }
+    .menu-container {
+        width: 95%;
+        margin-right: 30px;
+    }
+
+    .menu-size-select label {
+        width: 18%;
+
+    }
+}

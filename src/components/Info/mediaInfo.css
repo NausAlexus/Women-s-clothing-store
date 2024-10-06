@@ -1,0 +1,8 @@
+@media (max-width: 992px) {
+    .info {
+       position: absolute;
+       bottom: -180px;
+       width: 95%;
+       margin-left: 10px;
+    }
+}

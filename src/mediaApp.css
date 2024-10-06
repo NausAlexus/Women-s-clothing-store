@@ -1,0 +1,22 @@
+/* 1400px*/
+@media (max-width: 1400px) {
+    body {
+        width: 1000px;
+        font-size: 14px;
+    }
+}
+
+/* 1024px*/
+@media (max-width: 1024px) {
+    body {
+        width: 980px;
+    }
+}
+
+/* 992px*/
+@media (max-width: 992px) {
+    body {
+        width: 700px;
+        overflow-x: hidden;
+    }
+}
