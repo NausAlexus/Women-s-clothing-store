@@ -46,31 +46,4 @@
     .menu-delivery {
         font-size: 12px;
     }
-    .menu-info{
-        position:absolute;
-        top: 0;
-        left: 0;
-        
-    }
-}
-
-@media (max-width: 992px) {
-
-    .menu-info{
-        position:absolute;
-        top: 0;
-        left: 16px;
-        width: 90%;
-        
-        
-    }
-    .menu-container {
-        width: 95%;
-        margin-right: 30px;
-    }
-
-    .menu-size-select label {
-        width: 18%;
-
-    }
 }

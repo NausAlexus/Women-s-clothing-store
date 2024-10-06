@@ -17,6 +17,5 @@
 @media (max-width: 992px) {
     body {
         width: 700px;
-        overflow-x: hidden;
     }
 }

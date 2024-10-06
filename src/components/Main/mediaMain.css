@@ -3,6 +3,5 @@
     .main-container {
         align-items: center;
         flex-direction: column;
-        position: relative;
     }
 }
