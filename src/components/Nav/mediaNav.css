@@ -1,0 +1,16 @@
+/* 992px*/
+@media (max-width: 992px) {
+    .navigation {
+        margin-left: 67px;
+        font-size: 18px;
+    }
+}
+
+/* 700px*/
+@media (max-width: 700px) {
+    .navigation {
+        width: 310px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}

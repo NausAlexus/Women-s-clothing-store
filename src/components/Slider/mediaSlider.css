@@ -17,3 +17,18 @@
         margin-left: 0px;
     }
 }
+
+/* 700px*/
+@media (max-width: 700px) {
+    .slider {
+        height: 422px;
+        width: 380px;
+    }
+
+    .slider-wrap1 img, 
+    .slider-wrap2 img, 
+    .slider-wrap3 img, 
+    .slider-wrap4 img {
+        width: 380px;
+    }
+}

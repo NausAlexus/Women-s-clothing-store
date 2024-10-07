@@ -47,3 +47,120 @@
         font-size: 12px;
     }
 }
+
+/* 992px*/
+@media (max-width: 992px) {
+
+    .menu-info {
+        position:absolute;
+        top: 0;
+        left: 67px;
+        font-size: 24px;
+    }
+
+    .menu-category, .menu-color-select {
+        position: absolute;
+        left: 67px;
+    }
+
+    .menu-category {
+        font-size: 18px;
+    }
+
+    .menu-color-select {
+        margin-top: 45px;
+    }
+
+    .menu-size {
+        margin-top: 150px;
+        margin-left: -210px;
+        width: 570px;
+        font-size: 18px;
+    }
+
+    .menu-size-select {
+        margin-top: 12px;
+        margin-left: -210px;
+        width: 560px;
+    }
+
+    .menu-size-select label {
+        width: 100px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .menu-btn-add {
+        width: 560px;
+        margin-left: -210px;
+    }
+
+    .menu-btn-add .menu-btn-add-1, 
+    .menu-btn-add .menu-btn-add-2 {
+        font-size: 16px;
+    }
+
+    .menu-delivery {
+        width: 560px;
+        margin-top: 10px;
+        margin-left: -210px;
+        font-size: 17.5px;
+    }
+
+    .pay-conatiner {
+        width: 560px;
+        margin-left: -210px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}
+
+/* 700px*/
+@media (max-width: 700px) {
+
+    .menu-info {
+        width: 310px;
+        position:absolute;
+        top: 0;
+        left: 10px;
+        font-size: 20px;
+    }
+
+    .menu-category, .menu-color-select {
+        left: 10px;
+        top: 550px;
+    }
+
+    .menu-size {
+        margin-top: -50px;
+        margin-left: -156px;
+        width: 380px;
+        font-size: 18px;
+    }
+
+    .menu-size-select {
+        margin-top: 20px;
+        margin-left: -156px;
+        width: 380px;
+    }
+
+    .menu-size-select label {
+        width: 70px;
+        height: 34px;
+    }
+
+    .menu-btn-add {
+        width: 380px;
+        margin-left: -156px;
+    }
+
+    .menu-delivery {
+        width: 380px;
+        margin-left: -156px;
+    }
+
+    .pay-conatiner {
+        width: 380px;
+        margin-left: -156px;
+    }
+}

@@ -16,7 +16,20 @@
 
 /* 992px*/
 @media (max-width: 992px) {
+    .slider-container {
+        justify-content: center;
+        margin-top: 130px;
+        width: 560px;
+    }
+
     .slider-controls {
         display: none;
+    }
+}
+
+/* 700px*/
+@media (max-width: 700px) {
+    .slider-container {
+        justify-content: center;
     }
 }

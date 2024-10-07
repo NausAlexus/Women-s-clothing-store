@@ -34,11 +34,11 @@ function Menu() {
 		
         <div className='menu-container'>
 
-            <h1 className='menu-title'>Smart termal</h1>
-
-            <p className='menu-name'>Cardigan</p>
-
-            <p className='menu-price'>£54.00</p>
+            <div className="menu-info">
+                <h1 className='menu-title'>Smart termal</h1>
+                <p className='menu-name'>Cardigan</p>
+                <p className='menu-price'>£54.00</p>
+            </div>
 
             <p className='menu-category'>Colour:<span> {colorValue}</span></p>
 
