@@ -6,6 +6,8 @@
     flex-direction: column;
     overflow: hidden;
     scroll-behavior: smooth;
+    scrollbar-color: var(--color-ironGrey) var(--color-lightGrey);
+    scrollbar-width: thin;
 }
 
 .slider:hover {
@@ -20,11 +22,6 @@
     margin: auto;
     display: block;
     transition: opacity 0.5s;
-}
-
-.slider {
-    scrollbar-color: var(--color-ironGrey) var(--color-lightGrey);
-    scrollbar-width: thin;
 }
 
 .slider-wrap1 {

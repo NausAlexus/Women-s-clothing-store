@@ -17,6 +17,7 @@
 @media (max-width: 992px) {
     body {
         width: 700px;
+        touch-action: none
     }
 }
 
