@@ -6,3 +6,9 @@
         align-items: center;
     }
 }
+
+/* 700px*/
+@media (max-width: 700px) {
+    .main-container {
+    }
+}
