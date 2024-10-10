@@ -16,13 +16,17 @@
     .slider {
         margin-left: 0px;
         flex-direction: row;
-    }
-
-    .slider:hover {
         overflow-x: scroll;
         overflow-y: hidden;
         cursor: unset;
         scroll-snap-type: x mandatory;
+    }
+
+    .slider:hover {
+        overflow-x: unset;
+        overflow-y: unset;
+        cursor: unset;
+        scroll-snap-type: unset;
     }
 }
 
