@@ -20,6 +20,7 @@
         overflow-y: hidden;
         cursor: unset;
         scroll-snap-type: x mandatory;
+        pointer-events: none;
     }
 
     .slider:hover {
